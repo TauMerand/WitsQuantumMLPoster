@@ -49,7 +49,7 @@
 \begin{minipage}[c]{0.78\linewidth}%
 \centering%
 %Main Title
-\veryHuge \color{NavyBlue} \textbf{How quantum computing practically improve real life  machine learning now and in the near future?}%
+\veryHuge \color{NavyBlue} \textbf{How can Quantum Computing improve practical  Machine Learning today?}%
 %Sub title
  \color{Black}\\[0.3cm]%
 \Huge\textit{An exploration of how near term quantum computing can practically be used for machine learning applications}\\[1.2cm]%
@@ -73,9 +73,10 @@
 \begin{multicols}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
 %----------------------------------------------------------------------------------------
 \color{Navy} % Navy color for the abstract
-\begin{abstract}
-Quantum Computing has grown in leaps and bounds in the last 5-10 years. Machine learning (ML) is a field where large data-sets and massively parallel computing architectures have allowed for similar rapid improvements. We propose the use of current and near term quantum computing as viable technology for boosting existing classical ML algorithms. The exponential nature of super-positioned qubits can be leveraged to conduct fast state space searches for either better initial weights or more efficient learning  parameters for a machine learning model. We suspect that while the development of quantum machine learning techniques has been an incredible area of active research, quantum computing hardware has not yet reached the capability to run anything more realistic than the simplest proof-of-concept type examples, due to limitations in memory, qubit capacity and coherence time. Leveraging this exponential speed-up of a quantum computer for a state-space search to select either initial weights or model parameters combined with traditional training of the resultant model on large data sets may yield better or faster learning while being feasible to implement now or in the very near future. This avenue is suggested as a more actionable, in the near term, approach to improving ML via quantum computing while quantum architectures are still ill equipped to deal with large data sets. Good results have been achieved with quantum computing on combinatorial optimisation problems, in particular with applying quantum genetic algorithms, so it seems promising to reframe model parameter selection or weight initialisation as a quantum combinatorial optimisation problem and then execute a classical training-on-data algorithm on classical computing architectures. Thjis approach seems more likely to yield practical speed-ups or improvements in the ML sphere than simply continuing to develope theoretical quantum ML techniques that can't as yet be run on real data.
-\end{abstract}
+%\begin{abstract}
+\section*{Abstract}
+Quantum Computing (QC) has grown in leaps and bounds in the last 5-10 years; both in hardware and software .  Machine Learning (ML) is a field where large data-sets and massively parallel computing architectures have allowed for similar rapid improvements. We propose the use of current and near term QC as viable technology for boosting existing classical ML algorithms. The exponential nature of super-positioned qubits can be leveraged to perform classically hard optimisations efficiently, however many existing difficulties in QC hardware are not clearly tractable.  Therefore while the development of Quantum ML (QML) techniques has been an incredible area of active research, quantum computing hardware has not yet reached the capability to run anything more realistic than the simplest proof-of-concept type examples, due to limitations in memory, qubit capacity and coherence time.  We suggest that more actionable improvements may be made in ML by focusing on leveraging QC on smaller, tangential optimisation problems to the actual learning rather than solely trying to learn or implement learning algorithms on a QC. We suspect that using QC to either select effective model meta-learning parameters or to select useful initial values combined with traditional training of the resultant model on large data sets may yield better or faster learning while being feasible to implement now or in the very near future. Hopefully this will be a more immediately actionable approach to improving existing ML on practical problems. Good results have been achieved by QC on combinatorial optimisation problems so it seems promising to reframe meta-learning parameter or initial value selection as a in this way and then execute a classical training-on-data gradient descent type algorithm on classical computing architectures. This approach seems likely to yield practical speed-ups or improvements in the ML sphere while QC hardware is still ill equipped to deal with real data sets.
+%\end{abstract}
 %----------------------------------------------------------------------------------------
 \color{SaddleBrown} % SaddleBrown color for the introduction
 \section*{Introduction}
@@ -85,6 +86,7 @@ Quantum Computing has grown in leaps and bounds in the last 5-10 years. Machine 
 \color{DarkSlateGray} % DarkSlateGray color for the rest of the content
 
 \section*{The Present and Future of Quantum Computing Hardware}
+
 \begin{minipage}[c]{0.45\linewidth}%
 	\includegraphics[width=\linewidth]{MooresLaw}\\%
 \end{minipage}%
@@ -96,16 +98,6 @@ Quantum Computing has grown in leaps and bounds in the last 5-10 years. Machine 
 
 \section*{The State of Quantum Computing Optimisation  Algorithms}%The?
 
-\begin{enumerate}
-\item Lorem ipsum dolor sit amet, consectetur.
-\item Nullam at mi nisl. Vestibulum est purus, ultricies cursus volutpat sit amet, vestibulum eu.
-\item Praesent tortor libero, vulputate quis elementum a, iaculis.
-\item Phasellus a quam mauris, non varius mauris. Fusce tristique, enim tempor varius porta, elit purus commodo velit, pretium mattis ligula nisl nec ante.
-\item Ut adipiscing accumsan sapien, sit amet pretium.
-\item Estibulum est purus, ultricies cursus volutpat
-\item Nullam at mi nisl. Vestibulum est purus, ultricies cursus volutpat sit amet, vestibulum eu.
-\item Praesent tortor libero, vulputate quis elementum a, iaculis.
-\end{enumerate}
 
 %----------------------------------------------------------------------------------------
 \section*{The Problems and Drawbacks of Quantum ML}
